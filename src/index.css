@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li::marker {
+    background-color: #ff0000; /* Replace with your desired background color */
+    border-radius: 50%; /* This will create a circular shape */
+    width: 10px; /* Adjust the width and height to control the size of the circle */
+    height: 10px;
+    
+}
+
+.active {
+    color: black;
+
+    span {
+        background-color: rgb(37 99 235 / var(--tw-bg-opacity)) !important;
+        color: white;
+    };
+
+}
